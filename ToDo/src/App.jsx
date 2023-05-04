@@ -38,7 +38,7 @@ function App() {
       <Provider>
       <Tasks handleEditClick={handleEditClick} editFormVisibility={editFormVisibility}/>
       </Provider>
-      {todos.length > 1 && (
+      {tasks.length > 1 && (
         <button className='btn btn-danger btn-md delete-all'
         onClick={()=>dispatch(deleteAll())}>DELETE ALL</button>
       )}
