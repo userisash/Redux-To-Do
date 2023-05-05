@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
+    "bootstrap": "^5.2.3",
     "devtools": "^8.8.7",
     "extension": "^0.2.2",
     "feather": "^0.0.6",
